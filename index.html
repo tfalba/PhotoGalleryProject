@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  	<title>My Circle Vision Board</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+
+<body>
+	<nav>
+		<a id="current" class="first" href="index.html" onmouseover = "unDoMain(this)" onmouseleave="unDoMain(this)">Vision Board</a>
+		<a class="next" href="dreamHome.html" onmouseover = "unDoDreamHome(this)" onmouseleave="unDoMain(this)">Dream Home</a>
+		<a class="next2" href="community.html" onmouseover="unDoCommunity(this)" onmouseleave="unDoMain(this)">Community Vision</a>
+		<a class="next3" href="vacation.html" onmouseover="unDoVacation(this)" onmouseleave="unDoMain(this)">Dream Vacation</a>
+	</nav>
+	
+	<div id = "image"></div>
+
+	<img class = "main" alt = "images/cover.jpeg" src = "images/cover.jpeg" onload = "upDate2(this)">
+
+	<div class="firstdiv">	
+	<img class = "preview" alt = "images/feature1a.jpeg" src = "images/thumb1.jpeg" onmouseover = "upDate2(this)" onmouseleave="unDoMain()" >
+	
+	<img class = "preview" alt = "images/feature2a.jpeg" src = "images/thumb2.jpeg" onmouseover = "upDate2(this)" onmouseleave="unDoMain()" >
+
+	<img class = "preview" alt = "images/feature3a.jpeg" src = "images/thumb3.jpeg" onmouseover = "upDate2(this)" onmouseleave="unDoMain()" >
+
+	<img class = "preview" alt = "images/feature4a.jpeg" src = "images/thumb4.jpeg" onmouseover = "upDate2(this)" onmouseleave="unDoMain()" >
+
+	<img class = "preview" alt = "images/feature5b.jpeg" src = "images/thumb5.jpeg" onmouseover = "upDate2(this)" onmouseleave="unDoMain()" >
+
+	<img class = "preview" alt = "images/feature6a.jpeg" src = "images/thumb6.jpeg" onmouseover = "upDate2(this)" onmouseleave="unDoMain()" >
+
+	<img class = "preview" alt = "images/feature7a.jpeg" src = "images/thumb7.jpeg" onmouseover = "upDate2(this)" onmouseleave="unDoMain()" >
+</div>
+
+
+
+</body>
+</html>
