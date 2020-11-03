@@ -5,6 +5,7 @@ body{
 		background-color: rgba(14, 15, 27,.95);
         background-color: black;
         border-radius: 22px;
+        font-size: 17px;
     }
 
 nav{
@@ -21,7 +22,7 @@ nav{
 
 .firstdiv{
     box-sizing: border-box;
-    border: 8px solid black;
+    border: 8px solid rgba(6, 66, 95,.4);
     background-color: #000000;
     border-radius: 22px;
 }
@@ -29,18 +30,18 @@ nav{
 nav a{
     box-sizing:border-box;
     display:inline-block;
-    height:13%;
-    line-height: 13%;
+ /*   height:6vh;
+    line-height: 4vh;*/
     color: #FFFFFF;
     background-color: rgba(6, 66, 95,.5);
     text-decoration: none;
     margin:1% 1% 1% 0;
     padding:1% 1% 1% 1%;
     border-radius: 22px;
-    width: 23.7%;
+    width: 20vw;
     font-variant: small-caps;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 18px;
+    font-size: 1.5em;
     text-align: center;
 
 }
@@ -84,8 +85,8 @@ a.next3:not(#current):hover {
 }
 
 #image{
-	line-height: 500px;
-    height: 500px;
+	line-height: 600px;
+    height: 600px;
 	border: 8px solid rgba(6, 66, 95,.4);
     border-radius: 25px;
 	margin:0 auto;
@@ -103,18 +104,18 @@ a.next3:not(#current):hover {
  }
 
 .preview{
-        box-sizing:border-box;
+    box-sizing:border-box;
     display:inline-block;
-    height:12%;
+    height:11.5%;
     line-height: 7%;
-    width: 12%;
+    width: 11.5%;
     /*
     display: inline-block;
 /*	line-height: 100px;*/
  /*   height: 12%;
     width: 12%;
  /*   width:12%;*/
-	margin-left:1%;
+	margin-left:2%;
     border: 8px solid black;
     border-radius: 12px;
  
